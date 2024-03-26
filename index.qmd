@@ -1,46 +1,36 @@
 ---
-title: "Cooling effect of Montréal parks minimally affected by historical legacies"
+  title: "Cooling effect of Montréal parks minimally affected by historical legacies"
 author: "Isabella C. Richmond, Michael A. Paulauskas, Erica Padvaiskas, Laura Carolina Gonzalez Sinisterra, Kayleigh Hutt-Taylor, Alec L. Robitaille, Carly D. Ziter"
 format: 
   revealjs:
-    theme: simple
-    slide-number: c
+  theme: simple
+slide-number: c
 ---
 
-## Les villes sont dynamiques
+## Cities are dynamic
 
-::: {layout="[[-1], [1], [-1]]"}
-::: columns
-::: {.column width="33%"}
-![1950 (Ville de Montréal)](presentation_imgs/1950_annotated.png){fig-align="left"}
-:::
+::: {layout="\[\[-1\], \[1\], \[-1\]\]"} ::: columns ::: {.column width="33%"} ![1950 (Ville de Montréal)](presentation_imgs/1950_annotated.png){fig-align="left"} :::
 
-::: {.column width="33%"}
-![1993 (Ville de Montréal)](presentation_imgs/1993_annotated.png){fig-align="center"}
-:::
+::: {.column width="33%"} ![1993 (Ville de Montréal)](presentation_imgs/1993_annotated.png){fig-align="center"} :::
 
-::: {.column width="33%"}
-![2021 (Communauté Métropolitaine de Montréal)](presentation_imgs/2021_annotated.png){fig-align="right"}
-:::
-:::
-:::
+::: {.column width="33%"} ![2021 (Communauté Métropolitaine de Montréal)](presentation_imgs/2021_annotated.png){fig-align="right"} ::: ::: :::
 
-## Le (re)développement des espaces urbains est social
+## The (re)development of urban spaces is social
 
 ![Bibliothèque et Archives Nationales du Québec, 1963](presentation_imgs/metropolitan.jpg)
 
-## Les avantages des parcs sont complexes et importants
+## Benefits of parks are complex **and** important
 
-![[Le rapport sur les enjeux nationaux](https://changingclimate.ca/national-issues/fr/)](presentation_imgs/parkbenefits_fr.png)
+![[Le rapport sur les enjeux nationaux](https://changingclimate.ca/national-issues/fr/)](presentation_imgs/parkbenefits.png)
 
-## Comment l'historique d'un parc influence-t-elle ses bénéfices aux utilisateurs?
+## How do complicated histories interact with park benefits?
 
 ::: incremental
-1.  Est-ce que les communautés adjacentes parcs diffèrent-elles sociodémographiquement en fonction de l'historique de l'utilisation des sols?
-2.  Quels sont les effets de divers historique d'utilisation des sols sur la capacité actuelle des parcs à atténuer les températures ?
+1.  Are the communities surrounding parks of different past land-use types sociodemographically different?
+2.  What are the effects of historical land-use on the current capacity of parks to provide temperature mitigation?
 :::
 
-## Nous avons determiné l'histoire des parcs de Montréal
+## Collecting Montréal park histories
 
 ::: r-stack
 ![](presentation_imgs/Parc-Angrignon-1947-mosaic.jpeg){.fragment width="80%" fig-align="center"}
@@ -48,11 +38,11 @@ format:
 ![](presentation_imgs/Parc-Angrignon-2019-fr.png){.fragment width="50%" fig-align="center"}
 :::
 
-## Nous avons échantillonné les arbres et la température ambiente des parcs
+## Collecting Montréal park trees and temperatures
 
 ![](presentation_imgs/figure_2.png){fig-align="center"}
 
-## L'effet «Luxury» qui domine l'alentour de nos parcs
+## The Luxury Effect around our parks
 
 ```{r}
 #| echo: false
@@ -84,7 +74,6 @@ print(satcol)
 
 ```
 
-
 ## 
 
 ::: incremental
@@ -114,23 +103,23 @@ Industriel 🏭
 :::
 :::
 
-## Pour tous les types de parcs, l'effet de refroidissement est similaire
+## Cooling effect is similar across park types
 
 ![](presentation_imgs/plu_temp_total.png){fig-align="center"}
 
-## Pour tous les types de parcs, les forêts sont similaires
+## Forests are similar across park types
 
 ![](presentation_imgs/plu_tree_direct.png){fig-align="center"}
 
-## Mettons des parcs partout! ... sous une politique réfléchie, menée par et axée pour la communauté
+## Let's put parks everywhere! (with thought and community-led policy)
 
 ::: columns
 ::: {.column width="50%"}
--   Il y a un refroidissement dans tous les parcs
+-   Park cooling happens everywhere
 
--   L'effet «Luxury» domine à proximité des parcs
+-   Luxury effect dominates close to parks
 
--   Les parcs qui étaient industriels ont le potentiel d'augmenter l'équité
+-   Parks in industrial areas have the potential to increase equity, *if done correctly*
 :::
 
 ::: {.column width="50%"}
@@ -140,7 +129,7 @@ Industriel 🏭
 :::
 :::
 
-## Merci beaucoup!
+## Thank you! 
 
 ::: columns
 ::: {.column width="60%"}
@@ -149,17 +138,15 @@ Industriel 🏭
 ![](presentation_imgs/LabPhoto2022.jpg){width="70%" fig-align="center"}
 :::
 
-::: {.column width="40%"}
-::: {layout="[[-1], [1], [-1]]"}
--   Les assistants de terrain
+::: {.column width="40%"} ::: {layout="\[\[-1\], \[1\], \[-1\]\]"} - Les assistants de terrain
 
 -   Ville de Montréal, Baie d'Urfé, Beaconsfield
 
--   Les arbres, les parcs, les stationnements
-:::
-:::
+-   The parks, the trees, the parking lots
 :::
 
-## Des questions?
+::: :::
+
+## Questions?
 
 ![](presentation_imgs/bigtree.jpg){fig-align="center"}
