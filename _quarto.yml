@@ -1,7 +1,7 @@
 project:
   title: "Presentation IALE 2024"
   type: website
-output-dir: docs
+  output-dir: docs
 
 
 from: markdown+emoji
