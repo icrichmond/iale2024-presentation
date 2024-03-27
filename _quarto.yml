@@ -1,7 +1,7 @@
 project:
-  title: "Presentation QCBS 2023"
-  type: website
-  output-dir: docs
+  title: "Presentation IALE 2024"
+type: website
+output-dir: docs
 
 
 from: markdown+emoji
