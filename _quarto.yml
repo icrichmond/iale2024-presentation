@@ -1,6 +1,6 @@
 project:
   title: "Presentation IALE 2024"
-type: website
+  type: website
 output-dir: docs
 
 
