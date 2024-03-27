@@ -1,19 +1,29 @@
 ---
-  title: "Cooling effect of Montréal parks minimally affected by historical legacies"
+title: "Cooling effect of Montreal parks minimally affected by historical legacies"
 author: "Isabella C. Richmond, Michael A. Paulauskas, Erica Padvaiskas, Laura Carolina Gonzalez Sinisterra, Kayleigh Hutt-Taylor, Alec L. Robitaille, Carly D. Ziter"
 format: 
   revealjs:
-  theme: simple
+    theme: simple
 slide-number: c
 ---
 
 ## Cities are dynamic
 
-::: {layout="\[\[-1\], \[1\], \[-1\]\]"} ::: columns ::: {.column width="33%"} ![1950 (Ville de Montréal)](presentation_imgs/1950_annotated.png){fig-align="left"} :::
+::: {layout="[[-1], [1], [-1]]"}
+::: columns
+::: {.column width="33%"}
+![1950 (Ville de Montréal)](presentation_imgs/1950_annotated.png){fig-align="left"}
+:::
 
-::: {.column width="33%"} ![1993 (Ville de Montréal)](presentation_imgs/1993_annotated.png){fig-align="center"} :::
+::: {.column width="33%"}
+![1993 (Ville de Montréal)](presentation_imgs/1993_annotated.png){fig-align="center"}
+:::
 
-::: {.column width="33%"} ![2021 (Communauté Métropolitaine de Montréal)](presentation_imgs/2021_annotated.png){fig-align="right"} ::: ::: :::
+::: {.column width="33%"}
+![2021 (Communauté Métropolitaine de Montréal)](presentation_imgs/2021_annotated.png){fig-align="right"}
+:::
+:::
+:::
 
 ## The (re)development of urban spaces is social
 
@@ -21,13 +31,13 @@ slide-number: c
 
 ## Benefits of parks are complex **and** important
 
-![[Le rapport sur les enjeux nationaux](https://changingclimate.ca/national-issues/fr/)](presentation_imgs/parkbenefits.png)
+![[National Recreations and Park Association](https://www.nrpa.org/contentassets/0e196db99af544bbba4f63f480c1316b/gupc-resource-guide.pdf)](presentation_imgs/parkbenefits.png)
 
 ## How do complicated histories interact with park benefits?
 
 ::: incremental
-1.  Are the communities surrounding parks of different past land-use types sociodemographically different?
-2.  What are the effects of historical land-use on the current capacity of parks to provide temperature mitigation?
+1.  What are the legacy effects of past land-use types on current park capacity to provide a temperature mitigation?
+2.  Do the communities surrounding parks differ socio-demographically by past land-use type?
 :::
 
 ## Collecting Montréal park histories
@@ -35,12 +45,20 @@ slide-number: c
 ::: r-stack
 ![](presentation_imgs/Parc-Angrignon-1947-mosaic.jpeg){.fragment width="80%" fig-align="center"}
 
-![](presentation_imgs/Parc-Angrignon-2019-fr.png){.fragment width="50%" fig-align="center"}
+![](presentation_imgs/Parc-Angrignon-2019.jpg){.fragment width="50%" fig-align="center"}
 :::
 
-## Collecting Montréal park trees and temperatures
+## Collecting park forest structure and temperatures
 
 ![](presentation_imgs/figure_2.png){fig-align="center"}
+
+## Cooling effect is similar across park types
+
+![](presentation_imgs/plu_temp_total.png){fig-align="center"}
+
+## Forests are similar across park types
+
+![](presentation_imgs/plu_tree_direct.png){fig-align="center"}
 
 ## The Luxury Effect around our parks
 
@@ -79,37 +97,29 @@ print(satcol)
 ::: incremental
 ::: columns
 ::: {.column .center}
-**Pour tous les parcs :**
+**For all parks :**
 
--   [⬆]{style="color:#CFA35E;"} niveau d'éducation
--   [⬇]{style="color:#45A291;"} minorités visibles
+-   [⬆]{style="color:#CFA35E;"} level of education
+-   [⬇]{style="color:#45A291;"} visible minorities
 :::
 :::
 
 ::: columns
 ::: {.column width="50%"}
-Forestier 🌲 et agricole 🌾
+Forested 🌲 et agricultural 🌾
 
--   [⬆]{style="color:#CFA35E;"} salaire annuel
--   [⬆]{style="color:#CFA35E;"} maison unifamiliale
+-   [⬆]{style="color:#CFA35E;"} median salary
+-   [⬆]{style="color:#CFA35E;"} detached homes
 :::
 
 ::: {.column width="50%"}
-Industriel 🏭
+Industrial 🏭
 
--   [⬇]{style="color:#45A291;"} salaire annuel
--   [⬇]{style="color:#45A291;"} maison unifamiliale
+-   [⬇]{style="color:#45A291;"} median salary
+-   [⬇]{style="color:#45A291;"} detached homes
 :::
 :::
 :::
-
-## Cooling effect is similar across park types
-
-![](presentation_imgs/plu_temp_total.png){fig-align="center"}
-
-## Forests are similar across park types
-
-![](presentation_imgs/plu_tree_direct.png){fig-align="center"}
 
 ## Let's put parks everywhere! (with thought and community-led policy)
 
@@ -129,7 +139,7 @@ Industriel 🏭
 :::
 :::
 
-## Thank you! 
+## Thank you!
 
 ::: columns
 ::: {.column width="60%"}
@@ -138,15 +148,32 @@ Industriel 🏭
 ![](presentation_imgs/LabPhoto2022.jpg){width="70%" fig-align="center"}
 :::
 
-::: {.column width="40%"} ::: {layout="\[\[-1\], \[1\], \[-1\]\]"} - Les assistants de terrain
+::: {.column width="40%"}
+::: {layout="[[-1], [1], [-1]]"}
+-   Our wonderful field assistants
 
 -   Ville de Montréal, Baie d'Urfé, Beaconsfield
 
 -   The parks, the trees, the parking lots
 :::
-
-::: :::
+:::
+:::
 
 ## Questions?
 
 ![](presentation_imgs/bigtree.jpg){fig-align="center"}
+
+
+
+## How forest structure influences cooling 
+
+![](presentation_imgs/tree_temp_direct.png){fig-align="center"}
+
+
+## How forest structure influences cooling 
+
+![](presentation_imgs/tree_temp_direct_jitter.png){fig-align="center"}
+
+## The effect of management  
+
+![](presentation_imgs/densitysize.png){fig-align="center"}
