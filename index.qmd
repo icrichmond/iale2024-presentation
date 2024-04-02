@@ -56,6 +56,11 @@ slide-number: c
 
 ![](presentation_imgs/plu_temp_total.png){fig-align="center"}
 
+## How forest structure influences cooling 
+
+![](presentation_imgs/tree_temp_direct.png){fig-align="center"}
+
+
 ## Forests are similar across park types
 
 ![](presentation_imgs/plu_tree_direct.png){fig-align="center"}
@@ -162,12 +167,6 @@ Industrial 🏭
 ## Questions?
 
 ![](presentation_imgs/bigtree.jpg){fig-align="center"}
-
-
-
-## How forest structure influences cooling 
-
-![](presentation_imgs/tree_temp_direct.png){fig-align="center"}
 
 
 ## How forest structure influences cooling 
